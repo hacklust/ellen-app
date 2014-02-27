@@ -1,6 +1,4 @@
-ionic-angular-cordova-seed
-==========================
+ellen-app
+=========
 
-The perfect starting point for an Ionic project.
-
-- [Ionic Tutorials](http://ionicframework.com/tutorials/)
+Ionic Mobile App
