@@ -1,0 +1,178 @@
+<ion-view title="'Questions'" left-buttons="leftButtons" right-buttons="rightButtons">
+    <ion-content has-header="true" has-footer="true">
+
+        <div class="list card">
+            <div class="item item-avatar">
+                <img src="img/9cde9068bea7cad540d57383fe4cbed0.jpeg">
+                <h2>Aaron Noel De Leon</h2>
+                <p>February 25, 2013</p>
+            </div>
+
+            <div class="item item-body">
+                <p>
+                    What makes you fall in love? As smart women, you should know your rights especially the meaning
+                    of Lorem ipsum dolor sit amet. In case you don't know, then you must
+                    lorem ipsum dolor sit amet again..
+                </p>
+                <p>
+                    <a href="#" class="subdued">12 Likes</a>
+                    <a href="#" class="subdued">143 Answers</a>
+                </p>
+            </div>
+
+            <div class="item tabs tabs-secondary tabs-icon-left">
+                <a class="tab-item" href="#">
+                    <i class="icon ion-ios7-heart-outline"></i>
+                    Like
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-ios7-chatbubble-outline"></i>
+                    Answer
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-ios7-redo-outline"></i>
+                    Share
+                </a>
+            </div>
+        </div>
+
+        <div class="list card">
+            <div class="item item-avatar">
+                <img src="img/203292_826902383_870313002_q.jpg">
+                <h2>Rex Bringula</h2>
+                <p>February 25, 2013</p>
+            </div>
+
+            <div class="item item-body">
+                <p>
+                    I was raped. What to do?
+                </p>
+                <p>
+                    <a href="#" class="subdued">12 Likes</a>
+                    <a href="#" class="subdued">143 Answers</a>
+                </p>
+            </div>
+
+            <div class="item tabs tabs-secondary tabs-icon-left">
+                <a class="tab-item" href="#">
+                    <i class="icon ion-ios7-heart-outline"></i>
+                    Like
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-ios7-chatbubble-outline"></i>
+                    Answer
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-ios7-redo-outline"></i>
+                    Share
+                </a>
+            </div>
+        </div>
+
+        <div class="list card">
+            <div class="item item-avatar">
+                <img src="img/9cde9068bea7cad540d57383fe4cbed0.jpeg">
+                <h2>Aaron Noel De Leon</h2>
+                <p>February 25, 2013</p>
+            </div>
+
+            <div class="item item-body">
+                <p>
+                    What makes you fall in love? As smart women, you should know your rights especially the meaning
+                    of Lorem ipsum dolor sit amet. In case you don't know, then you must
+                    lorem ipsum dolor sit amet again..
+                </p>
+                <p>
+                    <a href="#" class="subdued">12 Likes</a>
+                    <a href="#" class="subdued">143 Answers</a>
+                </p>
+            </div>
+
+            <div class="item tabs tabs-secondary tabs-icon-left">
+                <a class="tab-item" href="#">
+                    <i class="icon ion-ios7-heart-outline"></i>
+                    Like
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-ios7-chatbubble-outline"></i>
+                    Answer
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-ios7-redo-outline"></i>
+                    Share
+                </a>
+            </div>
+        </div>
+
+        <div class="list card">
+            <div class="item item-avatar">
+                <img src="img/9cde9068bea7cad540d57383fe4cbed0.jpeg">
+                <h2>Aaron Noel De Leon</h2>
+                <p>February 25, 2013</p>
+            </div>
+
+            <div class="item item-body">
+                <p>
+                    What makes you fall in love? As smart women, you should know your rights especially the meaning
+                    of Lorem ipsum dolor sit amet. In case you don't know, then you must
+                    lorem ipsum dolor sit amet again..
+                </p>
+                <p>
+                    <a href="#" class="subdued">12 Likes</a>
+                    <a href="#" class="subdued">143 Answers</a>
+                </p>
+            </div>
+
+            <div class="item tabs tabs-secondary tabs-icon-left">
+                <a class="tab-item" href="#">
+                    <i class="icon ion-ios7-heart-outline"></i>
+                    Like
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-ios7-chatbubble-outline"></i>
+                    Answer
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-ios7-redo-outline"></i>
+                    Share
+                </a>
+            </div>
+        </div>
+    </ion-content>
+
+<script id="new-question.html" type="text/ng-template">
+    <div class="modal">
+        <header class="bar bar-header bar-dark">
+            <h1 class="title">Ask a Question</h1>
+            <button class="button button-clear" ng-click="closeNewQuestion()">
+                <i class="icon ion-ios7-close-empty"></i>
+            </button>
+        </header>
+        <ion-content has-header="true">
+            <form ng-submit="postQuestion()">
+                <div class="list">
+                    <label class="item item-input">
+                        <input type="text" placeholder="Feel free to ask anything" ng-model="user.question">
+                    </label>
+                </div>
+                <div class="padding">
+                    <button type="submit" class="button button-block button-royal">Ask Question</button>
+                </div>
+            </form>
+        </ion-content>
+    </div>
+</script>
+
+<ion-footer>
+    <div class="tabs tabs-icon-left tabs-dark">
+        <a href="#" class="tab-item">
+            <i class="icon ion-ios7-bookmarks-outline positive"></i>
+            Latest
+        </a>
+        <a href="#" class="tab-item">
+            <i class="icon ion-ios7-star-outline energized"></i>
+            Popular
+        </a>
+    </div>
+</ion-footer>
+</ion-view>

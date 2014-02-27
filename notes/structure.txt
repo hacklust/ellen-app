@@ -1,0 +1,10 @@
+Menu
+Login
+Sign Up
+Profile
+Talk
+ - Teach
+ - Speak
+ - Share
+Search
+View Question
