@@ -70,4 +70,7 @@ switch ($data['action']) {
             ));
         }
         break;
+    case 'teach':
+        
+        break;
 }
