@@ -173,3 +173,36 @@
 .item-body p {
     margin-top: 0;
 }
+
+.circle {
+    border-radius: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+.profile h2 {
+    margin-bottom: 0;
+}
+
+.card-full-width {
+    margin: auto;
+}
+
+.profile .card {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.profile .card:first-child {
+    margin-top: 20px;
+}
+
+.profile .card:last-child {
+    margin-bottom: 20px;
+}
+
+.profile a.item:after {
+    content: "\f151";
+}
