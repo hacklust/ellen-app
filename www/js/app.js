@@ -53,6 +53,11 @@ ellen.config(function($stateProvider, $urlRouterProvider) {
         url: "/rights",
         templateUrl: "templates/rights.html",
         controller: "ProfileCtrl"
+    })
+            .state('login', {
+        url: "/login",
+        templateUrl: "templates/login.html",
+        controller: "LoginCtrl"
     });
 
     // if none of the above states are matched, use this as the fallback
@@ -122,6 +127,10 @@ ellen.factory('uiService', function() {
         }
     };
 });
+
+controllers.LoginCtrl = function($scope) {
+    
+};
 
 controllers.ProfileCtrl = function($scope, $stateParams, uiService) {
     uiService.initialize($scope);
