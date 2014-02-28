@@ -226,3 +226,24 @@
 input[type="search"] {
     color: #eee;
 }
+
+.scroll-content .card:last-child {
+    margin-bottom: 40px;
+}
+
+.login.scroll-content {
+    background: url(../img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.logo {
+    margin: 2em 0;
+}
+
+.button.button-dark-blue {
+    background-color: #3B5998;
+    border-color: #193776;
+    border-radius: 0.5em;
+    color: #fff;
+}
