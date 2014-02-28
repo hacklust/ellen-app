@@ -43,6 +43,11 @@ ellen.config(function($stateProvider, $urlRouterProvider) {
         url: "/profile/:id",
         templateUrl: "templates/profile.html",
         controller: "ProfileCtrl"
+    })
+            .state('report', {
+        url: "/report",
+        templateUrl: "templates/report.html",
+        controller: "ProfileCtrl"
     });
 
     // if none of the above states are matched, use this as the fallback

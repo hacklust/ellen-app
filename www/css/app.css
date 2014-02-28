@@ -206,3 +206,15 @@
 .profile a.item:after {
     content: "\f151";
 }
+
+.gray {
+    color: #999;
+}
+
+.violence .category .item {
+    padding-left: 60px;
+}
+
+.violence .item-icon-left .icon {
+    left: 15px;
+}
