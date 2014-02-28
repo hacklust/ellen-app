@@ -203,6 +203,10 @@
     margin-bottom: 20px;
 }
 
+.sidebar a.item:after {
+    content: "";
+}
+
 .profile a.item:after {
     content: "\f151";
 }
@@ -217,4 +221,8 @@
 
 .violence .item-icon-left .icon {
     left: 15px;
+}
+
+input[type="search"] {
+    color: #eee;
 }
